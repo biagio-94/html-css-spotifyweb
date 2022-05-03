@@ -9,22 +9,66 @@
     <title>Spotify</title>
 </head>
 <body>
-    <div class="App-container" <!-- metti 100vh -->>
-        <div class="father column">
-            <div class="upper-child row grow stretch">
+    <div class="app-container" >
+        <div class="father column ">
+            <div class="upper-child grow row stretch">
                 <div class="side-bar column shrink-0">
-                    <div class="side-bar-logo shrink-0"></div>
-                    <div class="side-bar-icons shrink-0"></div>
+                    <div class="side-bar-logo row justify-center shrink-0"><img src="img/logo.svg" alt=""></div>
+                    <div class="side-bar-icons shrink-0">
+                        <div class="icon-container row align-center">
+                            <img src="img/home.svg" alt="">
+                            <span>Home</span>
+                        </div>
+                        <div class="icon-container row align-center">
+                            <img src="img/search.svg" alt="">
+                            <span>Cerca</span>
+                        </div>
+                        <div class="icon-container row align-center">
+                            <img src="img/libreria.svg" alt="">
+                            <span>La tua libreria</span>
+                        </div>
+                    </div>
                     <div class="side-bar-playlist grow">
                         <div class="column">
-                            <div class="shrink-0"></div>
-                            <div class="grow overflow"></div>
+                            <div class="shrink-0">
+                                <h5>PLAYLIST</h5>
+                                <div class="row align-center">
+                                    <a class="add-button" href=""><i class="fa-solid fa-plus"></i></a>
+                                    <span>Crea Playlist</span>
+                                </div>
+                                
+                            </div>
+                            <div class="grow overflow-auto">
+                                <div class="playlist-ul">
+                                    <ul>
+                                        <li>Nome Playlist</li>
+                                        <li>Nome Playlist</li>
+                                        <li>Nome Playlist</li>
+                                        <li>Nome Playlist</li>
+                                        <li>Nome Playlist</li>
+                                        <li>Nome Playlist</li>
+                                        <li>Nome Playlist</li>
+                                        <li>Nome Playlist</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="side-bar-text shrink-0">
                         <div class="column">
-                            <div class="shrink-0"></div>
-                            <div class="text"></div>
+                            <div class="shrink-0">
+                                <div class="icon-text ">
+                                    <a class="round-button" href=""><i class="fa-solid fa-arrow-down"></i></a>
+                                    <span>installa app</span>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="text">
+                                <div class="icon-text ">
+                                    <a class="round-button jhon-doe-icon" href=""><i class="fa-regular fa-user"></i></a>
+                                    <span>Jhon Doe</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
