@@ -1,5 +1,5 @@
 .nav-bar-child{
-    height: 100px;
+    height: 80px;
     background-color: #282828;
     
 }
@@ -57,8 +57,8 @@
 }
 .midle-icon{
     width: 40%;
-    margin: 0 auto;
-    margin-bottom: 20px;
+    align-self: center;
+    padding: 0 0 .5rem 0;
 }
 .midle-icon i{
     color: white;
