@@ -34,6 +34,7 @@
     padding: 0 .4rem;
 }
 .loading-bar{
+    height: 5px;
     background-color: #5A5A5A;
     border: 1px solid #282828;
     border-radius: 10px;
@@ -42,4 +43,27 @@
     width: 30%;
     height: 3px;
     background-color: white;
+}
+.nav-bar-middle{
+    width: 40%;
+    margin: auto;
+}
+.time {
+    display: inline-block;
+    padding: 0 1rem;
+    font-size: .5rem;
+    font-weight: bold;
+    color: white;
+}
+.midle-icon{
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.midle-icon i{
+    color: white;
+    font-weight: bold;
+}
+.midle-icon .play{
+    font-size: 2rem;
 }
