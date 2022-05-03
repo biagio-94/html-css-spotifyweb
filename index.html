@@ -11,8 +11,8 @@
 <body>
     <div class="app-container" >
         <div class="father column ">
-            <div class="upper-child grow row stretch">
-                <div class="side-bar column shrink-0">
+            <div class="upper-child overflow-hidden grow row stretch">
+                <div class="side-bar overflow-hidden column shrink-0">
                     <div class="side-bar-logo row justify-center shrink-0"><img src="img/logo.svg" alt=""></div>
                     <div class="side-bar-icons shrink-0">
                         <div class="icon-container row align-center">
@@ -28,8 +28,8 @@
                             <span>La tua libreria</span>
                         </div>
                     </div>
-                    <div class="side-bar-playlist grow">
-                        <div class="column">
+                    <div class="side-bar-playlist overflow-auto grow">
+                        <div class="column ">
                             <div class="shrink-0">
                                 <h5>PLAYLIST</h5>
                                 <div class="row align-center">
@@ -38,7 +38,7 @@
                                 </div>
                                 
                             </div>
-                            <div class="grow overflow-auto">
+                            <div class="grow ">
                                 <div class="playlist-ul">
                                     <ul>
                                         <li>Nome Playlist</li>
@@ -72,13 +72,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="main-content-container grow">
+                <div class="main-content-container overflow-auto grow">
                     <div class="button-section row align-center justify-end shrink-0">
                         <a href="">EFFETTUA L'UPPGRADE</a>
                     </div>
                     <div class="secondary-container column">
                         
-                        <div class="music-container overflow-auto ">
+                        <div class="music-container  ">
                             <div class="navigation-song">
                                 <a class="nav-song-links" href="">IN EVIDENZA</a>
                                 <a class="nav-song-links" href="">POADCAST</a>
@@ -135,61 +135,76 @@
                                 </div>
                             </div>
                             <div class="music-row">
-                                <h1>Recently Played</h1>
+<h1>Recently Played</h1>
+                                <h4 class="music-row-subtitle">Più ascolti più accurati saranno i suggerimenti</h4>                                
                                 <div class="row gap wrap ">
                                     <div class="card ">
                                         <div class="card-image">
-                                            <img src="img/metal_lifting.jpg" alt="">
-                                            <h2 class="card-image-title">Heavy Metal</h2 class="card-image-title">
-                                            <h4 class="card-image-subtitle">Subtitle</h4 class="card-image-subtitle">
+                                            <img src="img/radar.jpeg" alt="">
+                                            <h2 class="card-image-title">Release Radar</h2 class="card-image-title">
+                                            
                                         </div>                                             
                                     </div>
                                     <div class="card ">
                                         <div class="card-image">
-                                            <img src="img/stranger.jpeg" alt="">
-                                            <h2 class="card-image-title">Stranger Things, Vol.1 (a Netflix Original Series Soundtrack)</h2 class="card-image-title">
-                                            <h4 class="card-image-subtitle">Kyle Dickson and Micheal Stein</h4 class="card-image-subtitle">
+                                            <img src="img/mixdaily.jpeg" alt="">
+                                            <h2 class="card-image-title">Daily Mix 1</h2 class="card-image-title">
+                                            
                                         </div>                                             
                                     </div>
-                                    <div class="card ">
-                                        <div class="card-image">
-                                            <img src="img/aquietplace.jpeg" alt="">
-                                            <h2 class="card-image-title">A quiet place</h2 class="card-image-title">
-                                            <h4 class="card-image-subtitle">Subtitle</h4 class="card-image-subtitle">
-                                        </div>                                             
-                                    </div>
-                                    <div class="card ">
-                                        <div class="card-image">
-                                            <img src="img/split.jpeg" alt="">
-                                            <h2 class="card-image-title">Split</h2 class="card-image-title">
-                                            <h4 class="card-image-subtitle">Subtitle</h4 class="card-image-subtitle">
-                                        </div>                                             
-                                    </div>
-                                    <div class="card ">
-                                        <div class="card-image">
-                                            <img src="img/cure.jpeg" alt="">
-                                            <h2 class="card-image-title">A cure for wellness</h2 class="card-image-title">
-                                            <h4 class="card-image-subtitle">Subtitle</h4 class="card-image-subtitle">
-                                        </div>                                             
-                                    </div>
-                                    <div class="card ">
-                                        <div class="card-image">
-                                            <img src="img/sinister.jpeg" alt="">
-                                            <h2 class="card-image-title">Sinister</h2 class="card-image-title">
-                                            <h4 class="card-image-subtitle">Subtitle</h4 class="card-image-subtitle">
-                                        </div>                                             
-                                    </div>
+                                    
                                 </div>
                             </div>
-                            
+                            <div class="music-row">
+                                <h1>Artisti più popolari</h1>
+                                <h4 class="music-row-subtitle">Più ascolti più accurati saranno i suggerimenti</h4>
+                                <div class="row gap wrap ">
+                                    <div class="card ">
+                                        <div class="card-image ">
+                                            <div class="round-img"><img src="img/youg.jpeg" alt=""></div>
+                                            <h2 class="card-image-title">Release Radar</h2 class="card-image-title">
+                                            
+                                        </div>                                             
+                                    </div>
+                                    <div class="card ">
+                                        <div class="card-image">
+                                            <div class="round-img"><img src="img/einaudi.jpeg" alt=""></div>
+                                            <h2 class="card-image-title">Daily Mix 1</h2 class="card-image-title">
+                                            
+                                        </div>                                             
+                                    </div>
+                                    
+                                </div>
+                            </div>
                             
                         </div>
                     </div>
                 </div>
 
             </div>
-            <div class="nav-bar-child shrink-0">
-
+            <div class="nav-bar-child row justify-between shrink-0">
+                <div class="nav-bar-left row align-center justify-between shrink-0">
+                    <div class="nav-bar-img"><img src="img/sinister.jpeg" alt=""></div>
+                    <div class="nav-bar-description">
+                        <h1 class="nav-bar-title">Sinister</h1>
+                        <h4 class="nav-bar-subtitle">Brano Nome</h4>
+                    </div>
+                    <div class="nav-bar-icon row">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-regular fa-folder"></i>
+                    </div>
+                </div>
+                <div class="nav-bar-middle grow"></div>
+                <div class="nav-bar-right row align-center justify-between shrink-0">
+                    <div class="nav-bar-icon row">
+                        <i class="fa-solid fa-list"></i>
+                        <i class="fa-solid fa-display"></i>
+                        <i class="fa-solid fa-volume-high"></i>
+                    </div>
+                    <div class="loading-bar grow">
+                        <div class="loading-content"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
