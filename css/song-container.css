@@ -1,0 +1,54 @@
+.button-section a{
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: .6rem 2rem;
+    text-decoration: none;
+    font-size: .8rem;
+}
+.music-container{
+    padding: .5rem 1rem;
+}
+.navigation-song{
+    width: 60%;
+    margin: auto;
+    text-align: center;   
+}
+.nav-song-links{    
+    display: inline-block;
+    color: #A3A3A3;
+    padding: .6rem 1rem;
+    text-decoration: none;
+    font-size: .8rem;
+}
+.music-row{
+    padding: 2rem 0;
+    color: white;
+    font-size: .8rem;
+}
+.card{
+    width: calc(100% / 6 - 1rem);
+    padding: 1rem 0;
+}
+.card img{
+    width: 100%;
+    
+}
+.card-image{
+    text-align: center;
+    object-fit: cover;
+    overflow: hidden;
+}
+.card-image .card-image-title{
+    font-size: 1rem;
+    padding: .8rem 0 .5rem 0;
+}
+.card-image .card-image-subtitle{
+    font-size: .6rem;
+    color: #A3A3A3;
+}
+.card-description{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
