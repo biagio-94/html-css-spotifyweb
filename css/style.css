@@ -1,5 +1,6 @@
 @import url("side-bar.css");
 @import url("flex-utility.css");
+@import url("song-container.css");
 *{
     padding: 0;
     margin: 0;
