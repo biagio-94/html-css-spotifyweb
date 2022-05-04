@@ -22,6 +22,7 @@
     
 }
 .icon-container{
+    position: relative;
     height: 2rem;
 }
 .icon-container img{
@@ -97,4 +98,13 @@
     font-size: 15px;
     color: white;
     font-weight: bold;
+}
+.green-border-height{
+    position: absolute;
+    left: -15px;
+    top: 0;
+    display: none;
+    height: 100%;
+    margin: auto;
+    border: 1px solid #ADFF2F;
 }

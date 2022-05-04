@@ -33,3 +33,6 @@
 .navigation-song a:hover .green-border{
     display: block;
 }
+.side-bar .icon-container:hover .green-border-height{
+    display: block;
+}

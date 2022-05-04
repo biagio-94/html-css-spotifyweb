@@ -13,7 +13,8 @@
     margin: auto;
     text-align: center;   
 }
-.nav-song-links{    
+.nav-song-links{  
+    position: relative;  
     display: inline-block;
     color: #A3A3A3;
     padding: .6rem 1rem;
@@ -75,6 +76,10 @@
     overflow: hidden;
 }
 .green-border{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     display: none;
     width: 20px;
     margin: auto;
