@@ -34,15 +34,28 @@
     padding: 0 .4rem;
 }
 .loading-bar{
+    position: relative;
     height: 5px;
-    background-color: #5A5A5A;
-    border: 1px solid #282828;
+    background-color: #5A5A5A;   
     border-radius: 10px;
 }
 .loading-content{
+    
     width: 30%;
-    height: 3px;
+    height: 5px;
     background-color: white;
+    border-radius: 10px;
+}
+.green-dot{
+    display: none;
+    background-color: #ADFF2F;
+    position: absolute;
+    height: 12px;
+    aspect-ratio: 1;
+    transform: translateY(-4px);
+    border-radius: 50%;
+    top: 0;
+    left: 29%;
 }
 .nav-bar-middle{
     max-width: 600px;
@@ -51,7 +64,7 @@
 .time {
     display: inline-block;
     padding: 0 1rem;
-    font-size: .5rem;
+    font-size: .8rem;
     font-weight: bold;
     color: white;
 }

@@ -36,3 +36,9 @@
 .side-bar .icon-container:hover .green-border-height{
     display: block;
 }
+.loading-bar:hover .loading-content{
+    background-color: #ADFF2F;
+}
+.loading-bar:hover .green-dot{
+    display: block;
+}
