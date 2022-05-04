@@ -56,6 +56,7 @@
     color: white;
 }
 .midle-icon{
+    min-height: 3rem;
     width: 60%;
     align-self: center;
     padding: 0 0 .5rem 0;

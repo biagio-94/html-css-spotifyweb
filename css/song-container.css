@@ -2,7 +2,7 @@
     color: white;
     border: 1px solid white;
     border-radius: 20px;
-    padding: .6rem 2rem;
+    padding: 1rem 2rem;
     text-decoration: none;
     font-size: .8rem;
 }
@@ -20,6 +20,10 @@
     text-decoration: none;
     font-size: .8rem;
 }
+.nav-song-links span{
+    display: block;
+    padding: 3px;
+}
 .music-row{
     padding: 2rem 0;
     color: white;
@@ -28,17 +32,27 @@
 .card{
     width: calc(100% / 6 - 1rem);
     padding: 1rem 0;
+    text-align: center;
 }
 .card img{
     width: 100%;
     
+    
+}
+.card-play-button{
+    display: none;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    font-size: 4rem;
 }
 .card-image{
-    text-align: center;
+    position: relative;  
     object-fit: cover;
     overflow: hidden;
 }
-.card-image .card-image-title{
+.card-image-title{
     font-size: 1rem;
     padding: .8rem 0 .5rem 0;
 }
@@ -47,7 +61,7 @@
     color: #A3A3A3;
     padding: .8rem 0 .5rem 0;
 }
-.card-image .card-image-subtitle{
+.card-image-subtitle{
     font-size: .6rem;
     color: #A3A3A3;
 }
@@ -59,4 +73,10 @@
 .round-img{
     border-radius: 50%;
     overflow: hidden;
+}
+.green-border{
+    display: none;
+    width: 20px;
+    margin: auto;
+    border: 1px solid #ADFF2F;
 }

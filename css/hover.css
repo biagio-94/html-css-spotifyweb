@@ -1,0 +1,35 @@
+.card-image:hover .card-play-button{
+    display: block;
+    
+}
+.card-image:hover img{
+    filter: opacity(.4);
+}
+.button-section a:hover{
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: .6rem 2rem;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.nav-song-links:hover,
+.side-bar li:hover,
+.side-bar-playlist span:hover,
+.side-bar-text span:hover,
+.side-bar .icon-container:hover span,
+.nav-bar-child i:hover,
+.nav-bar-child h4:hover{
+    color: white;
+}
+
+.side-bar .icon-container:hover img {
+    filter: opacity(1);
+}
+.nav-bar-child .play:hover{
+    font-size: 2.5rem;
+    
+}
+.navigation-song a:hover .green-border{
+    display: block;
+}

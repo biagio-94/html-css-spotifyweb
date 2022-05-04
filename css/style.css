@@ -2,7 +2,9 @@
 @import url("flex-utility.css");
 @import url("song-container.css");
 @import url("nav-bar.css");
+@import url("hover.css");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Poppins:wght@400;700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
