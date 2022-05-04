@@ -5,7 +5,7 @@
 }
 .nav-bar-left,
 .nav-bar-right{
-    min-width: 200px;
+    width: 200px;
     padding: 0 .5rem;
 }
 .nav-bar-img{
@@ -56,7 +56,7 @@
     color: white;
 }
 .midle-icon{
-    width: 40%;
+    width: 60%;
     align-self: center;
     padding: 0 0 .5rem 0;
 }

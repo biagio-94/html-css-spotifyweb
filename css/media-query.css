@@ -1,18 +1,118 @@
 @media screen and (max-width:1100px) {
-    
+    .card{
+        width: calc(100% / 4 - 1rem);
+    }
 }
 
 
 @media screen and (max-width:700px) {
-    
+    .card{
+        width: calc(100% / 2 - 1rem);
+    }
+    .midle-icon{
+        width: 80%;
+    }
+    .nav-bar-img{
+        width: 35px;
+    }
+    .nav-bar-title{
+        font-size: .8rem;
+        color: white;
+    }
+    .nav-bar-subtitle{
+        font-size: .4rem;
+        color: #A3A3A3;
+    }
+    .nav-bar-left,
+    .nav-bar-right{
+        justify-content: flex-start;
+        padding: 0 0;
+    }
+    .nav-bar-left .nav-bar-icon{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
 @media screen and (max-width:600px) {
-    
+    .hidden-class{
+        display: none;
+    }
+    .query-display{
+        display: block;
+    }
+    .side-bar-logo{
+        margin-top: 5px;
+        height: 25px;
+        margin-bottom: 10px;
+    }
+    .side-bar span{
+        display: none;
+    }
+    .side-bar{
+        width: 40px;
+        align-items: center;
+    }
+    .nav-bar-left,
+    .nav-bar-right{
+        width: 150px;   
+    }
+    .nav-song-links{
+        font-size: .7rem;
+    }
+    .round-button{
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+    .nav-bar-icon i{
+        padding: .2rem .2rem;
+    }
+    }
+
+
+@media screen and (max-width:450px) {
+    .card{
+        width: 100%;
+        padding: 2rem 0;
+    }
+    .app-container{
+        overflow: hidden;
+    }
+    .nav-bar-left,
+    .nav-bar-right{
+        width: 70px;
+    }
+    .nav-bar-icon i{
+        display: none;
+    }
+    .nav-bar-icon .query-display{
+        display: block;
+    }
+    .midle-icon{
+        justify-content: center;
+    }
+    .nav-bar-title,
+    .nav-bar-subtitle{
+        display: none;
+    }
+    .nav-bar-img{
+        width: 100%;
+    }
+    .midle-icon .play{
+        font-size: 1rem;
+    }
 }
-
-
-@media screen and (max-width:500px) {
+@media screen and (max-width:270px) {
     
+    .justify-end{
+        justify-content: center;
+    }
+    .query-display{
+        display: block;
+    }
+    .hidden-class{
+        display: none;
+    }
 }

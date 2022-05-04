@@ -6,17 +6,19 @@
     background-color: black;
     color: #A3A3A3;
 }
+.side-bar span{
+    display: inline-block;
+}
 .side-bar-logo{
-    min-height: 100px;
-    
+    height: 100px;
+
 }
 .side-bar-icons{
     padding: 0 1rem;
     color: #A3A3A3;
 }
 .side-bar-logo img{
-    width: 60%;
-    object-position: center;
+    width: 100%;
     
 }
 .icon-container{
@@ -24,6 +26,7 @@
 }
 .icon-container img{
     height: 25px;
+    filter: opacity(0.8);
 }
 .icon-container span{
     display: block;
