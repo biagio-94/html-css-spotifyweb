@@ -45,7 +45,7 @@
     background-color: white;
 }
 .nav-bar-middle{
-    width: 40%;
+    max-width: 600px;
     margin: auto;
 }
 .time {
