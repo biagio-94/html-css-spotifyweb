@@ -81,7 +81,7 @@
     left: 50%;
     transform: translate(-50%,-50%);
     display: none;
-    width: 20px;
+    width: 30px;
     margin: auto;
     border: 1px solid #ADFF2F;
 }
