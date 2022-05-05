@@ -147,9 +147,7 @@
     .hidden-class{
         display: none;
     }
-    .query-display{
-        display: block;
-    }
+    
     .midle-icon{
         justify-content: space-between;
         padding-bottom: 1rem;

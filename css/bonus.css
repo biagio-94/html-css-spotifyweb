@@ -33,3 +33,6 @@ body{
 .card{
     min-width: calc(100% / 6 - 1rem)
 }
+.nav-bar-middle .hidden-pause{
+    display: none;
+}

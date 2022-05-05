@@ -53,3 +53,9 @@
     text-decoration: none;
     color: #ADFF2F;
 }
+.simulate-pause:focus .hidden-pause{
+    display: block;
+}
+.simulate-pause:focus .play-hidden{
+    display: none;
+}
