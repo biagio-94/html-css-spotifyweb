@@ -48,7 +48,7 @@
     display: block;
 }
 #home:focus,
-#home-2:focus,
+#search-bonus:focus,
 #home-3:focus{
     text-decoration: none;
     color: #ADFF2F;
