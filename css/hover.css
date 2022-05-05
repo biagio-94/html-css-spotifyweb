@@ -33,10 +33,24 @@
 
 .nav-song-links:focus .green-border{
     display: block;
+    
 }
+
 .nav-song-links:focus{
     color: #ADFF2F;
+    
+   
 }
+.navigation-song:hover .circle-animation{
+    animation: animazionefiga .6s ;
+    animation-delay: .2s;  
+
+}
+.nav-song-links:hover{
+    border-color: #ADFF2F;
+}
+
+
 .icon-container:focus .green-border-height{
     display: block;
 }
@@ -58,4 +72,18 @@
 }
 .simulate-pause:focus .play-hidden{
     display: none;
+}
+@keyframes animazionefiga{
+    0%{
+        top: 0;
+    }
+    55%{
+        top: -183px;
+    }
+    65%{
+        top: -183px;
+    }
+    100%{
+        top: 0;
+    }
 }

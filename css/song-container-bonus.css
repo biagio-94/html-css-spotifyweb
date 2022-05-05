@@ -10,24 +10,35 @@
     padding: .5rem 1rem;
 }
 .navigation-song{
-    padding: 1rem;
+    padding: 150px;
     position: relative;
+    max-width: 1100px;
+    height: 200px;
     margin: auto;
     text-align: center;   
 }
 .nav-song-links{  
     position: relative;
     display: inline-block;
+    width: 145px;
     color: #A3A3A3;
     padding: .6rem 1rem;
     text-decoration: none;
     font-size: .8rem;
-    
-    
+    border: 1px solid #141922;
+    border-radius: 20px;
+    transition: border .2s;
 }
 
-.nav-song-links span{ 
-    
+.nav-song-links .span-position{ 
+    z-index: 5555;
+    width: 142px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #141922;
+    transition: color .1s;
     
 }
 .music-row{
