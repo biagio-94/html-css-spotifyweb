@@ -33,7 +33,10 @@
 .navigation-song a:hover .green-border{
     display: block;
 }
-.premimi:focus .green-border{
+.nav-song-links:focus .green-border{
+    display: block;
+}
+.icon-container:focus .green-border-height{
     display: block;
 }
 .side-bar .icon-container:hover .green-border-height{
