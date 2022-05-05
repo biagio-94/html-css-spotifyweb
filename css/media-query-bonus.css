@@ -115,6 +115,9 @@
     .hidden-class{
         display: none;
     }
+    .nav-bar-child .play:hover{
+        font-size: 1.5rem;
+    }
 }
 
 @media screen and (max-height: 350px) {
@@ -151,5 +154,7 @@
         justify-content: space-between;
         padding-bottom: 1rem;
     }
-    
+    .nav-bar-child .play:hover{
+        font-size: 1.5rem;
+    }
 }
