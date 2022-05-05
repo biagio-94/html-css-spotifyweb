@@ -46,6 +46,31 @@
     animation-delay: .2s;  
 
 }
+.navigation-song:hover .circle-animation-2{
+    animation: animazionefiga .6s ;
+    animation-delay: .2s;  
+
+}
+.navigation-song:hover .circle-animation-3{
+    animation: animazionefiga .6s ;
+    animation-delay: .2s;  
+
+}
+.navigation-song:hover .circle-animation-4{
+    animation: animazionefiga .6s ;
+    animation-delay: .2s;  
+
+}
+.navigation-song:hover .circle-animation-5{
+    animation: animazionefiga .6s ;
+    animation-delay: .2s;  
+
+}
+.navigation-song:hover .circle-animation-6{
+    animation: animazionefiga .6s ;
+    animation-delay: .2s;  
+
+}
 .nav-song-links:hover{
     border-color: #ADFF2F;
 }
@@ -78,10 +103,10 @@
         top: 0;
     }
     55%{
-        top: -183px;
+        top: 183px;
     }
     65%{
-        top: -183px;
+        top: 183px;
     }
     100%{
         top: 0;

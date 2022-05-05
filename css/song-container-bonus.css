@@ -1,3 +1,8 @@
+.button-section{
+    position: fixed;
+    width: calc(100% - 200px);
+    z-index: 9999;
+}
 .button-section a{
     color: white;
     border: 1px solid white;
@@ -10,10 +15,8 @@
     padding: .5rem 1rem;
 }
 .navigation-song{
-    padding: 150px;
+    
     position: relative;
-    max-width: 1100px;
-    height: 200px;
     margin: auto;
     text-align: center;   
 }
@@ -30,7 +33,7 @@
     transition: border .2s;
 }
 
-.nav-song-links .span-position{ 
+.span-position{ 
     z-index: 5555;
     width: 142px;
     position: absolute;
@@ -42,7 +45,8 @@
     
 }
 .music-row{
-    padding: 2rem 0;
+    margin-top: 20px;
+    padding: 6rem 0;
     color: white;
     font-size: .8rem;
 }
@@ -167,4 +171,10 @@
     border-radius: 50%;
     background-color: #141922;  
      
+}
+.new-card{
+    max-width: calc(100% / 6 - 1rem);
+}
+.music-row h1{
+    padding-bottom: 30px;
 }

@@ -54,6 +54,10 @@
         width: 40px;
         align-items: center;
     }
+    .button-section{
+        width: calc(100% - 40px);
+        z-index: 9999;
+    }
     .nav-bar-left,
     .nav-bar-right{
         width: 150px;   
