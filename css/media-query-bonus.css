@@ -116,3 +116,29 @@
         display: none;
     }
 }
+
+@media screen and (max-height: 350px) {
+    .button-section{
+        display: none;
+    
+    }
+}
+@media screen and (max-height: 350px) and (max-width: 350px) {
+    .icon-container:not(#home,#home-2,#home-3){
+        display: none;
+    
+    }
+    .side-bar{
+        overflow: auto;
+    }
+    .nav-bar-child{
+        max-height: 40px;
+    }
+    .navigation-song{
+        display: flex;
+        overflow: auto;
+    }
+    h1{
+        font-size: 1rem;
+    }
+}
