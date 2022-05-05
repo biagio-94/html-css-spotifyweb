@@ -17,9 +17,9 @@
 .side-bar li:hover,
 .side-bar-playlist span:hover,
 .side-bar-text span:hover,
-.side-bar .icon-container:hover span,
 .nav-bar-child i:hover,
-.nav-bar-child h4:hover{
+.nav-bar-child h4:hover,
+.side-bar .icon-container span:hover{
     color: white;
 }
 
@@ -30,21 +30,26 @@
     font-size: 2.5rem;
     
 }
-.navigation-song a:hover .green-border{
-    display: block;
-}
+
 .nav-song-links:focus .green-border{
     display: block;
+}
+.nav-song-links:focus{
+    color: #ADFF2F;
 }
 .icon-container:focus .green-border-height{
     display: block;
 }
-.side-bar .icon-container:hover .green-border-height{
-    display: block;
-}
+
 .loading-bar:hover .loading-content{
     background-color: #ADFF2F;
 }
 .loading-bar:hover .green-dot{
     display: block;
+}
+#home:focus,
+#home-2:focus,
+#home-3:focus{
+    text-decoration: none;
+    color: #ADFF2F;
 }
