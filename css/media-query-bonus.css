@@ -91,7 +91,7 @@
         display: block;
     }
     .midle-icon{
-        justify-content: center;
+        justify-content: space-between;
     }
     .nav-bar-title,
     .nav-bar-subtitle{
@@ -132,7 +132,7 @@
         overflow: auto;
     }
     .nav-bar-child{
-        max-height: 40px;
+        max-height: 30px;
     }
     .navigation-song{
         display: flex;
@@ -141,4 +141,15 @@
     h1{
         font-size: 1rem;
     }
+    .hidden-class{
+        display: none;
+    }
+    .query-display{
+        display: block;
+    }
+    .midle-icon{
+        justify-content: space-between;
+        padding-bottom: 1rem;
+    }
+    
 }
